@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+.img-container{
+    display: flex;
+   
+}
+
+.btn {
+    font-size: 25px;
+    opacity: 0.6;
+    position: absolute;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.left {
+    left: 20px;
+}
+
+.right{
+    right: 20px;
+}
